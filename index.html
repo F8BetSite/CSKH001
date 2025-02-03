@@ -479,6 +479,23 @@
     }
   </script>
 
+<script src="https://connect.facebook.net/en_US/messenger.Extensions.js"></script>
+<script>
+  window.extAsyncInit = function() {
+      MessengerExtensions.getContext('1847096999027798', 
+          function success(thread_context) {
+              console.log("User ID:", thread_context.psid);
+          }, 
+          function error(err) {
+              console.error(err);
+          }
+      );
+  };
+
+  function closeWebView() {
+      MessengerExtensions.requestCloseBrowser();
+  }
+</script>
 
 
 </body>
