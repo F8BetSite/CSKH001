@@ -62,7 +62,7 @@ f8 banner
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 30px;
+  margin-top: 15px;
 }
 
 .banner-pc {
@@ -88,7 +88,7 @@ category button
 }
 
 .category-button-list {
-  width: 20%;
+  width: 24%;
   background-image: url('./../images/bg-category-button.png');
   background-position: center;
   background-size: contain;
@@ -228,6 +228,14 @@ f8 footer
     width: calc(10% - 5px);
     margin: 5px 0;
   }
+
+  .category-button-list {
+    width: 27%;
+  }
+
+  .content-category-button {
+    font-size: 14px;
+  }
 }
 
 @media screen and (max-width: 992px) {
@@ -254,9 +262,7 @@ f8 footer
     margin-top: 15px;
   }
 
-  .f8-footer {
-    
-  }
+  .f8-footer {}
 
   .f8-footer.dp-mb {
     display: flex;
@@ -271,16 +277,16 @@ f8 footer
   }
 
   .content-category-button {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .category-button-list {
-    width: 42%;
+    width: 47%;
     margin: 6px 4px;
   }
 
   .icon-category-button {
-    width: 22%;
+    width: 24%;
   }
 
   .f8-footer .icon-category-button {
@@ -318,7 +324,7 @@ f8 footer
   .dp-pc {
     display: none;
   }
-  
+
   .dp-mb {
     display: block;
   }
@@ -353,7 +359,7 @@ f8 footer
   }
 
   .content-category-button {
-    font-size: 14px;
+    font-size: 12px;
   }
 
   .icon-list-button {
@@ -361,7 +367,7 @@ f8 footer
   }
 
   .category-button-list {
-    width: 42%;
+    width: 45%;
   }
 
   .content-list-button {
@@ -415,7 +421,7 @@ f8 footer
   }
 
   .content-category-button {
-    font-size: 12px;
+    font-size: 2.5vw;
     padding-top: 4px;
   }
 
